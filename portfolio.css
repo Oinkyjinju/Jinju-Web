@@ -78,7 +78,7 @@ h2 {
   transform: rotate(-90deg);
   position: absolute;
   top: 59%;
-  right:26.5%;
+  right:31.5%;
 }
 
 h3 {
@@ -126,7 +126,7 @@ h5 {
   width: 330px;
   height:400px;
   top: 16%;
-  left: 40%;
+  left: 35%;
   z-index: -1;
   position: absolute;
   background-color: #ff4d4d;
