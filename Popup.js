@@ -8,7 +8,7 @@ var onclick = document.getElementById("popup");
 var span = document.getElementsByClassName("close")[0];
 
 // When the user clicks the button, open the modal 
-onclick.onclick = function() {
+window.onclick = function() {
   modal.style.display = "block";
 }
 
