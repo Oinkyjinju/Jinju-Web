@@ -141,6 +141,7 @@ h1 {
   box-shadow: 0 10px 50px #263984c7;
 }
 img {
+  border-radius: 8px;
   max-width: 60vh;
   max-height: 70vh;
   transition: .5s;
