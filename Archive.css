@@ -224,4 +224,21 @@ p {
   background-color: #5cb85c;
   color: white;
 }
+/* VIDEO */
+#videosize {
+  max-width: auto; 
+   overflow: hidden;
+ }
+ 
+ .video {
+   background-image: url('https://drive.google.com/file/d/1P9VQYXOJL8vqjYGzGQ-WZTQNf_hsGzk1/view');
+   height: auto;
+   width: auto;
+   margin-bottom: 50px;
+ }
+ 
+ /* Hide Play button + controls on iOS */
+ video::-webkit-media-controls {
+     display:none !important;
+ }
 
