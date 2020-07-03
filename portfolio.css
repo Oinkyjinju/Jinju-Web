@@ -138,7 +138,46 @@ h6 {
   left: 35%;
   z-index: -1;
   position: absolute;
-  background-color: #ff4d4d;
+  background: linear-gradient( #720A2D, #E5505E, #F5D93E, #E7D7BD );
+}
+.item-a2 {
+  width: 330px;
+  height:400px;
+  top: 16%;
+  left: 35%;
+  z-index: -1;
+  position: absolute;
+  background-color: #ffda41;
+}
+
+.item-a3 {
+  width: 330px;
+  height:400px;
+  top: 16%;
+  left: 35%;
+  z-index: -1;
+  position: absolute;
+  background: linear-gradient(90deg, #60c6ff, #b13d9b,#6d045c );
+}
+
+.item-a4 {
+  width: 330px;
+  height:400px;
+  top: 16%;
+  left: 35%;
+  z-index: -1;
+  position: absolute;
+  background: linear-gradient( #29b4e9,#122445 );
+}
+
+.item-a5 {
+  width: 330px;
+  height:400px;
+  top: 16%;
+  left: 35%;
+  z-index: -1;
+  position: absolute;
+  background: linear-gradient( #e60f00, #b40900 );
 }
 
 .item-b {
