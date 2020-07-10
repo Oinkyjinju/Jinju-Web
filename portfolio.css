@@ -232,7 +232,10 @@ position: absolute;
 }
 
 .nextcolor {
+  width: 100%;
+  height: auto;
   background: linear-gradient( #720A2D, #E5505E, #F5D93E, #E7D7BD );
+  transition: all 0.3 ease;
 }
 
 .goback {
