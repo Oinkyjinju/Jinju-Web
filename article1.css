@@ -116,6 +116,9 @@ h3 {
   background-color: #cccccc;
   }
 
+  .logo {
+    justify-content: center;
+  }
 
   .zoom:hover {
     -ms-transform: scale(1.5); /* IE 9 */
