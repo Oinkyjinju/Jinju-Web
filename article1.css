@@ -80,11 +80,30 @@ body {
   box-sizing: content-box;
 }
 h1 {
+  font-family: Hepta Slab, sans-serif;
   font-weight: 500;
   font-size: 25pt;
   color: #000000;
   position: relative;
   text-align: center;
+}
+
+h2 {
+  font-family: Hepta Slab, sans-serif;
+  font-weight: 300;
+  font-size: 18pt;
+  color: #000000;
+  position: relative;
+  text-align: center;
+}
+
+h3 {
+  font-family: Hepta Slab, sans-serif;
+  font-weight: 100;
+  font-size: 12pt;
+  color: #585858;
+  position: relative;
+  text-align: left;
 }
 
 .item-a {
@@ -94,5 +113,12 @@ h1 {
   margin: auto;
   top: 50px;
   padding: 2rem;
-  background-color: #ff4d4d;
+  background-color: #cccccc;
+  }
+
+
+  .zoom:hover {
+    -ms-transform: scale(1.5); /* IE 9 */
+    -webkit-transform: scale(1.5); /* Safari 3-8 */
+    transform: scale(1.5); /* everything else? */
   }
