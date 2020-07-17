@@ -124,12 +124,18 @@ h3 {
     justify-content: center;  
 }
 
+.title-box {
+  height: auto;
+  margin-top: 15%;
+  position: relative;
+
+}
   .description-box {
     width: 75vw;
     height: auto;
     position: relative; 
-    margin: auto;
-    padding: 3rem;
+    margin-top: 60px;
+    margin-left: 150px;
   }
 
   .zoom:hover {
