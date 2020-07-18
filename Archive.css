@@ -240,7 +240,7 @@ p {
 
 .modal-header {
   padding: 2px 16px;
-  background-color: #5cb85c;
+  background-color: #757575;
   color: white;
   border-radius: 8px 8px 0px 0px; 
 }
@@ -248,7 +248,7 @@ p {
 .modal-body {padding: 2px 16px;}
 .modal-footer {
   padding: 2px 16px;
-  background-color: #5cb85c;
+  background-color: #757575;
   color: white;
   border-radius: 0px 0px 8px 8px; 
 
