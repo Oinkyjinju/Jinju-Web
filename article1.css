@@ -125,6 +125,7 @@ h4 {
   margin: auto;
   margin-bottom: 6.5%;
   top: 75px;
+  z-index: -1;
   padding: 2rem;
   background-color: #cccccc;
   }
@@ -155,4 +156,21 @@ h4 {
     -ms-transform: scale(1.5); /* IE 9 */
     -webkit-transform: scale(1.5); /* Safari 3-8 */
     transform: scale(1.5); /* everything else? */
+  }
+
+
+  .img-wrap {
+    transform: rotate(90deg);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 40vh;
+    transform-origin: 50% 50%;
+    transform: rotate(90deg) translateZ(.1px) scale(0.9) translateX(0px) translateY(-3vh);
+    transition: 1s;
+    z-index: 1;
+  }
+  
+  .initial-up {
+    transform: rotate(90deg) translateZ(-.2px) scale(1.1) translateX(0%) translateY(-10vh);
   }
