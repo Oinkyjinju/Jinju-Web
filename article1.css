@@ -157,17 +157,19 @@ h4 {
     -webkit-transform: scale(1.5); /* Safari 3-8 */
     transform: scale(1.5); /* everything else? */
   }
-
-
+  
   .img-wrap {
+    width: 30%;
+    height: 50%;
     transform: rotate(90deg);
     display: flex;
     align-items: center;
     justify-content: center;
-    transform-origin: 50% 50%;
+    transform-origin: 80% 50%;
     transform: rotate(0deg) translateZ(.1px) scale(0.9) translateX(0px) translateY(-3vh);
     transition: 1s;
     z-index: 5;
+    box-shadow: 0px 10px 10px #00000052;
   }
 
   .img-wrapper a {
@@ -178,7 +180,6 @@ h4 {
   }
   
   .initial-up {
-    width: 25%;
     transform: rotate(0deg) translateZ(-.2px) scale(1.1) translateX(0%) translateY(-10vh);
   }
   .initial-down {
