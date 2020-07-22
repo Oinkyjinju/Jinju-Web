@@ -195,7 +195,7 @@ h4 {
     transform: rotate(0deg) translateZ(-.2px) scale(1.1) translateX(0%) translateY(-10vh);
   }
   .initial-down {
-    transform: rotate(90deg) translateZ(-.2px) scale(1.1) translateX(13%) translateY(10vh) ;
+    transform: rotate(0deg) translateZ(-.2px) translateX(0%) translateY(10vh) ;
   }
 
   // ==================
