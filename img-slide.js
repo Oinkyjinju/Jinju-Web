@@ -1,24 +1,24 @@
 const slideData = [
     {
       index: 0,
-      headline: 'New Fashion Apparel',
-      src: 'https://s3-us-west-2.amazonaws.com/s.cdpn.io/225363/fashion.jpg'
+    //  headline: 'New Fashion Apparel',
+      src: 'https://github.com/Oinkyjinju/Jinju-Web/blob/develop/images/TPW/ID_3.1.jpg?raw=true'
     },
     {
       index: 1,
-      headline: 'In The Wilderness',
-      src: 'https://s3-us-west-2.amazonaws.com/s.cdpn.io/225363/forest.jpg'
+     // headline: 'In The Wilderness',
+      src: 'https://github.com/Oinkyjinju/Jinju-Web/blob/develop/images/TPW/ID_3.2.jpg?raw=true'
     },
     {
       index: 2,
-      headline: 'For Your Current Mood',
-      src: 'https://s3-us-west-2.amazonaws.com/s.cdpn.io/225363/guitar.jpg'
+     // headline: 'For Your Current Mood',
+      src: 'https://github.com/Oinkyjinju/Jinju-Web/blob/develop/images/TPW/ID_3.3.jpg?raw=true'
     },
-    {
+   /* {
       index: 3,
       headline: 'Focus On The Writing',
       src: 'https://s3-us-west-2.amazonaws.com/s.cdpn.io/225363/typewriter.jpg'
-    }
+    }*/
   ]
   
   
