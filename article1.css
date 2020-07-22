@@ -158,6 +158,16 @@ h4 {
     transform: scale(1.5); /* everything else? */
   }
   
+  .container {
+    width: 70vw;
+    height: 20vw;
+    position: relative;
+    margin: auto;
+    margin-bottom: 6.5%;
+    z-index: 0;
+    padding: 2rem; 
+    overflow: hidden;
+  }
   .img-wrap {
     width: 30%;
     height: 50%;
