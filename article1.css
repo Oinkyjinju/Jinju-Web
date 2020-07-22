@@ -159,18 +159,17 @@ h4 {
   }
 
   .container {
-    height: 100vh;
     overflow:hidden;
     display: flex;
     flex-wrap: wrap;
-    margin-right: -15px;
-    margin-left: -15px;
+    margin-right: -17px;
+    margin-left: -17px;
   }
 
   .justify-content-center {
     justify-content: center !important;
   }
-  
+
   .img-wrap {
     width: 30%;
     height: 50%;
