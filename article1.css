@@ -232,8 +232,8 @@ h4 {
   // =========================
   
   .slider {
-    --slide-size: 0vmin;
-    --slide-margin: 4vmin;
+    --slide-size: 70vmin;
+    --slide-margin: 40vmin; /* margin of space beteween imgaes in slide */
     
     height: var(--slide-size);
     margin: 0 auto;
@@ -325,7 +325,7 @@ h4 {
     position: absolute;
     top: 0%;  
     transition: transform calc(var(--base-duration) / 4) var(--base-ease);
-    width: 100%;
+    width: 25%; /* width of image sizes */
   }
   
   .slide__image {
