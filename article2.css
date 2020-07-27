@@ -156,3 +156,58 @@ h4 {
     -webkit-transform: scale(1.5); /* Safari 3-8 */
     transform: scale(1.5); /* everything else? */
   }
+
+  .container {
+    overflow:hidden;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 1%;;
+    margin-right: -17px;
+    margin-left: -17px;
+  }
+
+  .justify-content-center {
+    justify-content: center !important;
+  }
+
+  .img-wrap {
+    width: 30%;
+    height: 50%;
+    transform: rotate(90deg);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transform-origin: 80% 50%;
+    transform: rotate(0deg) translateZ(.1px) scale(0.9) translateX(0px) translateY(-3vh);
+    transition: 1s;
+    z-index: 5;
+    box-shadow: 7px 7px 10px #00000052;
+  }
+
+  .img-wrap-web {
+    width: 60%;
+    height: 50%;
+    transform: rotate(90deg);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transform-origin: 80% 50%;
+    transform: rotate(0deg) translateZ(.1px) scale(0.9) translateX(0px) translateY(-3vh);
+    transition: 1s;
+    z-index: 3;
+    box-shadow: 10px 10px 10px #00000052;
+  }
+
+  .img-wrapper a {
+    overflow: hidden;
+    display: contents;
+    padding: 1vh ;
+    box-shadow: 0 10px 50px #263984c7;
+  }
+  
+  .img-wrapper-web a {
+    overflow: hidden;
+    display: contents;
+    padding: 1vh ;
+    box-shadow: 0 10px 50px #263984c7;
+  }
