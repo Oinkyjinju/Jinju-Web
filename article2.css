@@ -183,7 +183,19 @@ h4 {
     z-index: 5;
     box-shadow: 7px 7px 10px #00000052;
   }
-
+  .img-wrap-horizontal {
+    width: 50%;
+    height: 35%;
+    transform: rotate(90deg);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transform-origin: 80% 50%;
+    transform: rotate(0deg) translateZ(.1px) scale(0.9) translateX(0px) translateY(-3vh);
+    transition: 1s;
+    z-index: 5;
+    box-shadow: 7px 7px 10px #00000052;
+  }
   .img-wrap-web {
     width: 60%;
     height: 50%;
@@ -197,6 +209,7 @@ h4 {
     z-index: 3;
     box-shadow: 10px 10px 10px #00000052;
   }
+
 
   .img-wrapper a {
     overflow: hidden;
