@@ -162,8 +162,8 @@ h4 {
     display: flex;
     flex-wrap: wrap;
     margin-top: 1%;;
-    margin-right: -17px;
-    margin-left: -17px;
+    margin-right: 3%;
+    margin-left: 3%;
   }
 
   .justify-content-center {
