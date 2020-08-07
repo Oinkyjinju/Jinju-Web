@@ -127,6 +127,10 @@ h5 {
   text-align: center;
 }
 
+.text-box {
+  padding: 0% 7% 0% 7%;
+  }
+
 .item-a {
   width: 70vw;
   height: 20vw;
