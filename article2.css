@@ -121,11 +121,12 @@ h5 {
   font-family: Hepta Slab, sans-serif;
   font-weight: 500;
   font-size: 30pt;
-  padding:20%;
+  padding:4.7% 1%;
   color: #000000;
   position: relative;
   text-align: center;
 }
+
 .item-a {
   width: 70vw;
   height: 20vw;
@@ -192,7 +193,7 @@ h5 {
     box-shadow: 3px 7px 10px #00000052;
   }
   .img-wrap-horizontal {
-    width: 50%;
+    width: 47%;
     height: 35%;
     transform: rotate(90deg);
     display: flex;
