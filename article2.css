@@ -117,7 +117,15 @@ h4 {
   text-align: center;
 }
 
-
+h5 {
+  font-family: Hepta Slab, sans-serif;
+  font-weight: 500;
+  font-size: 30pt;
+  padding:20%;
+  color: #000000;
+  position: relative;
+  text-align: center;
+}
 .item-a {
   width: 70vw;
   height: 20vw;
