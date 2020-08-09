@@ -153,7 +153,7 @@ h5 {
 .title-box {
   height: auto;
   margin-top: 10%;
-  position: relative;`
+  position: relative;
 
 }
   .description-box {
@@ -196,6 +196,21 @@ h5 {
     z-index: 5;
     box-shadow: 3px 7px 10px #00000052;
   }
+
+  .img-wrap-gif {
+    width: 23%;
+    height: 50%;
+    transform: rotate(90deg);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transform-origin: 80% 50%;
+    transform: rotate(0deg) translateZ(.1px) scale(0.9) translateX(0px) translateY(-3vh);
+    transition: 1s;
+    z-index: 5;
+  }
+
+
   .img-wrap-horizontal {
     width: 47%;
     height: 35%;
