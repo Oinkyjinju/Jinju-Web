@@ -185,7 +185,7 @@ h6 {
   height: 131px;
   position: absolute;
   z-index: -1;
-  background-color: #bababa;
+  background-color: none;
   top: 80%;
   right: 0%;
 }
@@ -271,7 +271,7 @@ position: absolute;
   height: 55px;
   position: absolute;
   z-index: -1;
-  background-color: #bababa;
+  background-color: none;
   top: 85%;
   left: 0%;
   transition: .3s ease-in-out;
