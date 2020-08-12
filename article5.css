@@ -184,7 +184,7 @@ h5 {
   }
 
   .img-wrap {
-    width: 23%;
+    width: 50%;
     height: 50%;
     transform: rotate(90deg);
     display: flex;
