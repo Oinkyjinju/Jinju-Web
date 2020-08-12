@@ -92,7 +92,10 @@ h2 {
   font-family: Hepta Slab, sans-serif;
   font-weight: 300;
   font-size: 18pt;
-  color: #ffffff;
+  background-color: #ffffff;
+  margin-left: 30%;
+  margin-right: 30%;
+  color: #4166f5;
   position: relative;
   text-align: center;
 }
