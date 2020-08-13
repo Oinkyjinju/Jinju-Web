@@ -128,6 +128,16 @@ h5 {
   text-align: center;
 }
 
+h6 {
+  font-family: Hepta Slab, sans-serif;
+  font-weight: 100;
+  font-size: 100%;
+  line-height: 1.5;
+  color: #bbbbbb;
+  position: relative;
+  text-align: left;
+}
+
 .line {
   border: 1px solid #4166f5;
   margin-left: 8%;
@@ -135,7 +145,10 @@ h5 {
 }
 
 .text-box {
-  padding: 0% 7% 0% 7%;
+    width: 33vw;
+    height: 20vw;
+    padding: 4% 0% 0% 3%;
+    position: relative; 
   }
 
 .item-a {
