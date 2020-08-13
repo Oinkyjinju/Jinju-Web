@@ -170,11 +170,15 @@ h6 {
     justify-content: center;  
 }
 
-.title-box {
+.title-box1 {
   height: auto;
   margin-top: 10%;
   position: relative;
-
+}
+.title-box2 {
+  height: auto;
+  margin-top: 10%;
+  position: relative;
 }
   .description-box {
     width: 75vw;
