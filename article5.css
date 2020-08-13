@@ -145,11 +145,11 @@ h6 {
 }
 
 .text-box {
-    width: 40vw;
-    height: 20vw;
-    padding: 4% 0% 0% 3%;
-    position: relative; 
-  }
+  width:85vw;
+  height: 20vw;
+  padding: 0% 0% 5% 0%;
+  position: center; 
+}
 
 .item-a {
   width: 70vw;
