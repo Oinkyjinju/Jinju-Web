@@ -206,11 +206,9 @@ h6 {
   .img-wrap {
     width: 50%;
     height: 50%;
-    transform: rotate(90deg);
     display: flex;
     align-items: center;
     justify-content: center;
-    transform-origin: 80% 50%;
     transform: rotate(0deg) translateZ(.1px) scale(0.9) translateX(0px) translateY(-3vh);
     transition: 1s;
     z-index: 5;
@@ -218,11 +216,9 @@ h6 {
   .img-wrap-horizontal {
     width: 100%;
     height: 35%;
-    transform: rotate(90deg);
-    display: flex;
+    display: inherit;
     align-items: center;
     justify-content: center;
-    transform-origin: 80% 50%;
     transform: rotate(0deg) translateZ(.1px) scale(0.9) translateX(0px) translateY(-3vh);
     transition: 1s;
     z-index: 5;
