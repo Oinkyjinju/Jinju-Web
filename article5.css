@@ -92,12 +92,10 @@ h2 {
   font-family: Hepta Slab, sans-serif;
   font-weight: 300;
   font-size: 18pt;
-  background-color: #ffffff;
-  margin-left: 30%;
-  margin-right: 30%;
+  margin-left: 8.8%;
   color: #4166f5;
   position: relative;
-  text-align: center;
+  text-align: left;
 }
 
 h3 {
@@ -128,6 +126,12 @@ h5 {
   color: #ffffff;
   position: relative;
   text-align: center;
+}
+
+.line {
+  border: 1px solid #4166f5;
+  margin-left: 8%;
+  margin-right: 8%;
 }
 
 .text-box {
