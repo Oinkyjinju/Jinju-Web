@@ -91,8 +91,7 @@ h1 {
 h2 {
   font-family: Hepta Slab, sans-serif;
   font-weight: 300;
-  font-size: 18pt;
-  margin-left: 8.8%;
+  font-size: 16pt;
   color: #4166f5;
   position: relative;
   text-align: left;
@@ -132,8 +131,9 @@ h5 {
 h6 {
   font-family: Hepta Slab, sans-serif;
   font-weight: 100;
-  font-size: 130%;
+  font-size: 100%;
   line-height: 1.5;
+  margin-top: 1%;
   color: #585858;
   position: relative;
   text-align: left;
@@ -147,15 +147,14 @@ h6 {
 
 .text-box {
   width:80vw;
-  height: 20vw;
-  padding: 0% 0% 5% 0%;
+  height: auto;
   position: center; 
 }
 
 .text-box2 {
-  width:30vw;
+  width: 36vw;
   height: auto;
-  padding: 5% 3% 3% 3%;
+  padding: 0% 2% 0% 2%;
   position: center; 
 }
 
