@@ -158,6 +158,13 @@ h6 {
   position: center; 
 }
 
+.text-box3 {
+  width: 24vw;
+  height: auto;
+  padding: 0% 2% 0% 2%;
+  position: center; 
+}
+
 .item-a {
   width: 70vw;
   height: 20vw;
