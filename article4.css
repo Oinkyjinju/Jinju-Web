@@ -132,9 +132,8 @@ h5 {
 h6 {
   font-family: Hepta Slab, sans-serif;
   font-weight: 100;
-  font-size: 100%;
+  font-size: 130%;
   line-height: 1.5;
-  margin: 5% 0% 1% 0%;
   color: #585858;
   position: relative;
   text-align: left;
@@ -150,6 +149,13 @@ h6 {
   width:80vw;
   height: 20vw;
   padding: 0% 0% 5% 0%;
+  position: center; 
+}
+
+.text-box2 {
+  width:30vw;
+  height: auto;
+  padding: 5% 3% 3% 3%;
   position: center; 
 }
 
