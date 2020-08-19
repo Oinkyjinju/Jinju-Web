@@ -250,6 +250,17 @@ h6 {
     transition: 1s;
     z-index: 5;
   }
+
+  .img-wrap-vertical {
+    width:30%;
+    height: auto;
+    display:flex;
+    align-items:normal;
+    justify-content: center;
+    transition:1.3s;
+    z-index:3;
+  }
+
   .img-wrap-web {
     width: 60%;
     height: 50%;
