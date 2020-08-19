@@ -221,6 +221,9 @@ h6 {
     justify-content: center !important;
   }
 
+  .img {
+    image-rendering: pixelated;
+  }
   .img-wrap {
     width: 50%;
     height: 50%;
