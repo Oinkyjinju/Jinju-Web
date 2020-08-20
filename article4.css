@@ -306,17 +306,17 @@ h6 {
   .grid-wrapper {
 		display: grid;
     grid-gap: 1vw;
-		grid-template-columns: [col1-start] 10%  [col2-start] 10%  [col3-start] 10% [col3-end];
+		grid-template-columns: [col1-start] 10%  [col2-start] 10%  [col3-start] 10% [col3-end] 10% ;
 		grid-template-rows: [row1-start] auto [row2-start] auto [row2-end];
-  height: 25vw;
+  height: 100vw;
 	}
 
 	.grid {
-		padding: 3%;
-		font-size: 150%;
+		padding: 1%;
+		font-size: 100%;
 	}
   .a {
-		grid-column: col1-start / col2-start;
+		grid-column: col-start / col2-start;
 		grid-row: row1-start ;
 	}
 	.b {
@@ -324,7 +324,7 @@ h6 {
 		grid-row: row1-start / row2-end;
 	}
 	.c {
-		grid-column: col1-start;
+		grid-column: col2-start / col3-end;
 		grid-row: row2-start / row3-end ;
 	}
 
