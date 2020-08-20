@@ -305,10 +305,10 @@ h6 {
 
   .grid-wrapper {
 		display: grid;
-    grid-gap: 1vw;
-		grid-template-columns: [col-start] 7%[col1-start] 40%  [col2-start] 40%  [col2-end] 9%   ;
-		grid-template-rows: [row1-start] auto [row2-start] auto [row2-end];
-  height: 80vw;
+    grid-gap: 3vw;
+		grid-template-columns: [col-start] 7%[col1-start] 35%  [col2-start] 40%  [col2-end] 9%   ;
+		grid-template-rows: [row1-start]20% [row2-start] auto [row2-end];
+  height: 60vw;
 	}
 
 	.grid {
@@ -327,7 +327,7 @@ h6 {
 	}
 	.c {
 		grid-column: col1-start / col2-start;
-		grid-row: row2-start / row3-end ;
-	}
+		grid-row: row2-start / row2-end ;
+  }
 
 
