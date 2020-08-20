@@ -306,25 +306,27 @@ h6 {
   .grid-wrapper {
 		display: grid;
     grid-gap: 1vw;
-		grid-template-columns: [col1-start] 10%  [col2-start] 10%  [col3-start] 10% [col3-end] 10% ;
+		grid-template-columns: [col-start] 7%[col1-start] 40%  [col2-start] 40%  [col2-end] 9%   ;
 		grid-template-rows: [row1-start] auto [row2-start] auto [row2-end];
-  height: 100vw;
+  height: 80vw;
 	}
 
 	.grid {
 		padding: 1%;
-		font-size: 100%;
-	}
+  }
+  
   .a {
-		grid-column: col-start / col2-start;
+  	justify-content:center;
+  	    align-items:center;
+		grid-column: col1-start / col2-start;
 		grid-row: row1-start ;
 	}
 	.b {
-		grid-column: col3-start ;
+		grid-column: col2-start /col2-end ;
 		grid-row: row1-start / row2-end;
 	}
 	.c {
-		grid-column: col2-start / col3-end;
+		grid-column: col1-start / col2-start;
 		grid-row: row2-start / row3-end ;
 	}
 
