@@ -252,7 +252,7 @@ h6 {
   }
 
   .img-wrap-vertical {
-    flex-basis: 100%;
+    flex-basis: 30%;
     width: 30%;
     height: auto;
     display:flex;
@@ -302,3 +302,30 @@ h6 {
     padding: 1vh ;
     box-shadow: 0 10px 50px #263984c7;
   }
+
+  .grid-wrapper {
+		display: grid;
+    grid-gap: 1vw;
+		grid-template-columns: [col1-start] 10%  [col2-start] 10%  [col3-start] 10% [col3-end];
+		grid-template-rows: [row1-start] auto [row2-start] auto [row2-end];
+  height: 25vw;
+	}
+
+	.grid {
+		padding: 3%;
+		font-size: 150%;
+	}
+  .a {
+		grid-column: col1-start / col2-start;
+		grid-row: row1-start ;
+	}
+	.b {
+		grid-column: col3-start ;
+		grid-row: row1-start / row2-end;
+	}
+	.c {
+		grid-column: col1-start;
+		grid-row: row2-start / row3-end ;
+	}
+
+
