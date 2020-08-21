@@ -77,7 +77,7 @@ h2 {
   color: #bababa;
   transform: rotate(-90deg);
   position: absolute;
-  top: 59%;
+  bottom: 33%;
   right:31.5%;
 }
 
@@ -114,9 +114,44 @@ h6 {
   color: #bababa;
   transform: rotate(-90deg);
   position: absolute;
-  top: 50%;
-  right:28.5%;
+  bottom: 33%;
+  right:29%;
 }
+
+h7, h8, h9 { /* You can just go on adding headings */
+  display: block; /* Because this is block level element */
+}
+
+h7 {
+  font-weight: 300;
+  font-size: 13pt;
+  color: #bababa;
+  transform: rotate(-90deg);
+  position: absolute;
+  bottom: 29%;
+  right: 33%;
+}
+
+h8 {
+  font-weight: 300;
+  font-size: 13pt;
+  color: #bababa;
+  transform: rotate(-90deg);
+  position: absolute;
+  bottom: 38.5%;
+  right: 26.5%;
+}
+
+h9 {
+font-weight: 300;
+  font-size: 13pt;
+  color: #bababa;
+  transform: rotate(-90deg);
+  position: absolute;
+  bottom: 32%;
+  right: 31.5%;
+}
+
 .yearbox {
   top: 23%;
   left: 22%;
