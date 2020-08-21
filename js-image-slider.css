@@ -86,7 +86,7 @@
 {
     display:inline-block;
     *display:inline;zoom:1;/*IE6, IE7 hack*/
-    margin:0 1px;/*this determins the distance between each thumbnail*/
+    margin:0 0.3vw;/*this determins the distance between each thumbnail*/
     background:#ffffff;
 }
 
