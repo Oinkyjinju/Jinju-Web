@@ -114,9 +114,28 @@ h4 {
   line-height: 1.2;
   color: #585858;
   position: relative;
-  text-align: left;
+  text-align: center;
 }
 
+h5 {
+  font-family: Hepta Slab, sans-serif;
+  font-weight: 150;
+  font-size: 15pt;
+  line-height: 1.2;
+  color: #660057;
+  position: relative;
+  text-align: center;
+}
+
+h6 {
+  font-family: Hepta Slab, sans-serif;
+  font-weight: 100;
+  font-size: 12pt;
+  line-height: 1.2;
+  color: #585858;
+  position: relative;
+  text-align: left;
+}
 
 .item-a {
   width: 70vw;
