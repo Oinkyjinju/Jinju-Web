@@ -128,8 +128,8 @@ h7 {
   color: #bababa;
   transform: rotate(-90deg);
   position: absolute;
-  bottom: 29%;
-  right: 33%;
+  bottom: 26.5%;
+  right: 44.5%;
 }
 
 h8 {
@@ -138,8 +138,8 @@ h8 {
   color: #bababa;
   transform: rotate(-90deg);
   position: absolute;
-  bottom: 38.5%;
-  right: 26.5%;
+  bottom: 32%;
+  right: 33%;
 }
 
 h9 {
@@ -148,8 +148,8 @@ font-weight: 300;
   color: #bababa;
   transform: rotate(-90deg);
   position: absolute;
-  bottom: 32%;
-  right: 31.5%;
+  bottom: 34%;
+  right: 31.8%;
 }
 
 .yearbox {
