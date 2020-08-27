@@ -175,6 +175,7 @@ h6 {
   width:80vw;
   margin:0% 10% 0% 10%;
   height: auto;
+  justify-content: center;
   position: center; 
 }
 
