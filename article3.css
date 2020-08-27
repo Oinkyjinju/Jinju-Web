@@ -127,7 +127,7 @@ h5 {
   margin: 5% 0% 1% 0%;
   color: #660057;
   position: relative;
-  text-align: center;
+  text-align: left;
 }
 
 h6 {
@@ -175,7 +175,6 @@ h6 {
   width:80vw;
   margin:0% 10% 0% 10%;
   height: auto;
-  justify-content: center;
   position: center; 
 }
 
