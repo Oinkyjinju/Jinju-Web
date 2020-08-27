@@ -40,10 +40,9 @@
 /* Caption styles */
 #slider .mc-caption {
     position:absolute;
-    width:500px;
+    width:300px;
     height:auto;
-    padding:10px 0;
-    left: 100px; /*if the caption needs to be aligned from right, specify by right instead of left. i.e. right:20px;*/
+    padding:5% 5% 5% 5%;
     bottom: -40px;/*if the caption needs to be aligned from top, specify by top instead of bottom. i.e. top:150px;*/
     overflow:hidden;
     font:bold 13px/16px Arial;
@@ -51,6 +50,7 @@
     text-align:center;
     background:none;
 }
+
 #slider .mc-caption a { 
     color:#34739c;
 }
@@ -78,7 +78,7 @@
 /* -- thumbnails -- */
 #thumbs 
 {
-    margin-top:5%;
+    margin-top:15%;
     text-align:center;
     font-size:0;
 }
