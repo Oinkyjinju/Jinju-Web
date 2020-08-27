@@ -163,16 +163,17 @@ h6 {
 .title-box1 {
   height: auto;
   margin-top: 6%;
-  position: relative;
+  position: center;
 }
 .title-box2 {
   height: auto;
   margin-top: 5%;
-  position: relative;
+  position: center;
 }
 
 .text-box {
   width:80vw;
+  margin:0% 10% 0% 10%;
   height: auto;
   position: center; 
 }
