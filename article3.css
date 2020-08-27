@@ -218,6 +218,17 @@ h6 {
     z-index: 5;
     box-shadow: 7px 7px 10px #00000052;
   }
+  .img-wrap-horizontal {
+    width: 200%;
+    height: 100vh;
+    display: inherit;
+    margin: 2% 2% 0% 2%;
+    align-items: center;
+    justify-content: center;
+    transform: rotate(0deg) translateZ(.1px) scale(0.9) translateX(0px) translateY(-3vh);
+    transition: 1.5s;
+    z-index: 5;
+  }
 
   .img-wrap-web {
     width: 60%;
