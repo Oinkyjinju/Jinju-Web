@@ -156,7 +156,7 @@ const slideData = [
       const { slides, heading } = this.props 
       const headingId = `slider-heading__${heading.replace(/\s+/g, '-').toLowerCase()}`
       const wrapperTransform = {
-        'transform': `translateX(-${current * (100 / slides.length)}%)`
+        'transform': `translateX(-${current * (200 / slides.length)}%)`
       }
       
       return (
