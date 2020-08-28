@@ -40,7 +40,7 @@
 /* Caption styles */
 #slider .mc-caption {
     position:absolute;
-    width:300px;
+    width:270px;
     height:auto;
     padding:5% 5% 5% 5%;
     bottom: -40px;/*if the caption needs to be aligned from top, specify by top instead of bottom. i.e. top:150px;*/
