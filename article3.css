@@ -229,6 +229,17 @@ h6 {
     z-index: 5;
   }
 
+  .img-wrap-horizontal2 {
+    width: 80%;
+    height: 40vh;
+    display: inherit;
+    margin: 2% 2% 0% 2%;
+    align-items: center;
+    justify-content: center;
+    transition: 1.5s;
+    z-index: 5;
+  }
+
   .img-wrap-web {
     width: 60%;
     height: 50%;
