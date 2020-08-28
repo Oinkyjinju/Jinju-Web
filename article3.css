@@ -206,18 +206,18 @@ h6 {
   }
 
   .img-wrap {
-    width: 30%;
+    width: 40%;
     height: 50%;
     transform: rotate(90deg);
     display: flex;
-    align-items: center;
+    align-items: normal;
     justify-content: center;
     transform-origin: 80% 50%;
-    transform: rotate(0deg) translateZ(.1px) scale(0.9) translateX(0px) translateY(-3vh);
+    margin: 3% 0% 0% 0%;
     transition: 1s;
     z-index: 5;
-    box-shadow: 7px 7px 10px #00000052;
   }
+
   .img-wrap-horizontal {
     width: 20%;
     height: 40vh;
