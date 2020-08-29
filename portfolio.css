@@ -274,34 +274,34 @@ position: absolute;
 }
 
 .nextcolor {
-  width: 270px;
+  width: 300px;
   height: 300px;
   position: absolute;
   background: linear-gradient(90deg, #720A2D, #E5505E, #F5D93E, #E7D7BD );
 }
 
 .nextcolor2 {
-  width: 270px;
+  width: 300px;
   height: 300px;
   position: absolute;
   background-color: #ffda41;
 }
 
 .nextcolor3 {
-  width: 270px;
+  width: 300px;
   height: 300px;
   position: absolute;
   background: linear-gradient(90deg, #60c6ff, #b13d9b,#6d045c );
 }
 .nextcolor4 {
-  width: 270px;
+  width: 300px;
   height: 300px;
   position: absolute;
   background: linear-gradient(90deg, #29b4e9,#122445 );
 }
 
 .nextcolor5 {
-  width: 270px;
+  width: 300px;
   height: 300px;
   position: absolute;
   background: linear-gradient(90deg, #e60f00, #b40900 );
