@@ -128,7 +128,7 @@ h7 {
   color: #bababa;
   transform: rotate(-90deg);
   position: absolute;
-  bottom: 35%;
+  bottom: 25%;
   right:-32%;
 }
 
@@ -158,7 +158,7 @@ font-weight: 300;
   width: 18%;
   height: auto;
   position: absolute;
-  margin: 0;
+  margin: 2% 3% 0% 3%;
 }
 
 .scroll-info {
