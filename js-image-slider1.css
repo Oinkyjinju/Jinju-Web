@@ -1,9 +1,9 @@
 
 
-#sliderFrame, #sliderFrame div {
+#sliderFrame1, #sliderFrame1 div {
     box-sizing: content-box;
 }
-#sliderFrame 
+#sliderFrame1 
 {
     position:relative;
     width:720px;
@@ -13,12 +13,12 @@
     border-radius:6px;
 } 
 
-#slider, #slider .sliderInner {
+#slider1, #slider1 .sliderInner {
     width:700px;height:500px;/* Must be the same size as the slider images */
     border-radius:0px;
 }
 
-#slider {
+#slider1 {
     background-color:rgb(255, 255, 255);
     position:relative;
     margin:0 auto; /*center-aligned*/
@@ -26,19 +26,19 @@
 }
 
 /* the link style (if an image is wrapped by a link) */
-#slider a.imgLink, #slider .video {
+#slider1 a.imgLink, #slider1 .video {
     z-index:2;
     cursor:pointer;
     position:absolute;
     top:0px;left:0px;border:0;padding:0;margin:0;
     width:100%;height:100%;
 }
-#slider .video {
+#slider1 .video {
     background:transparent url(video.png) no-repeat 50% 50%;
 }
 
 /* Caption styles */
-#slider .mc-caption {
+#slider1 .mc-caption {
     position:absolute;
     width:500px;
     height:auto;
@@ -51,28 +51,28 @@
     text-align:center;
     background:none;
 }
-#slider .mc-caption a { 
+#slider1 .mc-caption a { 
     color:#34739c;
 }
 
 
 /* ------ built-in navigation bullets wrapper that is relative to the #slider ------*/
-#slider .navBulletsWrapper  {
+#slider1 .navBulletsWrapper  {
     display:none;
 }
 
 /* --------- Others ------- */
 
-#slider img, #slider>b, #slider a>b {
+#slider1 img, #slider1>b, #slider1 a>b {
     position:absolute; border:none; display:none;
 }
 
-#slider .sliderInner {
+#slider1 .sliderInner {
     overflow:hidden;
     position:absolute; top:0; left:0;
 }
 
-#slider>a, #slider video, #slider audio {display:none;}
+#slider>a, #slider1 video, #slider1 audio {display:none;}
 
 
 /* -- thumbnails -- */
