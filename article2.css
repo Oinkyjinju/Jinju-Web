@@ -186,12 +186,11 @@ h5 {
   .img-wrap {
     width: 23%;
     height: 50%;
-    transform: rotate(90deg);
     display: flex;
-    align-items: center;
+    margin: 1%;
+    align-items: normal;
     justify-content: center;
     transform-origin: 80% 50%;
-    transform: rotate(0deg) translateZ(.1px) scale(0.9) translateX(0px) translateY(-3vh);
     transition: 1s;
     z-index: 5;
     box-shadow: 3px 7px 10px #00000052;
