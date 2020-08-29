@@ -212,7 +212,7 @@ h6 {
     align-items: normal;
     justify-content: center;
     transform-origin: 80% 50%;
-    margin: 3% 0% 0% 0%;
+    margin: 3% 3% 0% 0%;
     transition: 1s;
     z-index: 5;
   }
