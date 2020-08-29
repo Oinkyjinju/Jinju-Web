@@ -124,7 +124,7 @@ h5 {
   font-weight: 150;
   font-size: 15pt;
   line-height: 1.2;
-  margin: 5% 0% 1% 0%;
+  margin: 3% 0% 1% 0%;
   color: #660057;
   position: relative;
   text-align: center;
@@ -219,7 +219,7 @@ h6 {
 
   .img-wrap-horizontal {
     width: 20%;
-    height: 40vh;
+    height: 25vh;
     display: inherit;
     margin: 2% 2% 0% 2%;
     align-items: center;
