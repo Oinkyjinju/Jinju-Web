@@ -191,6 +191,7 @@ h4 {
     width: 25%;
     height: 30%;
     display: flex;
+    margin: 1% 2%;
     align-items: center;
     justify-content: center;
     transform-origin: 80% 50%;
