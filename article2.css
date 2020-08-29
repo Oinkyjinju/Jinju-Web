@@ -160,8 +160,8 @@ h5 {
     width: 75vw;
     height: auto;
     position: relative; 
-    margin-top: 60px;
-    margin-left: 150px;
+    margin: 5% 12% 5% 12%;
+
   }
 
   .zoom:hover {
