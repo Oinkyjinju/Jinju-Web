@@ -83,11 +83,12 @@ h2 {
 
 h3 {
   font-weight: 500;
-  font-size: 300%;
+  font-size: 250%;
   color: #000000; 
   text-shadow: 4px 4px 0px #ffffff;
   position: absolute;
-  bottom: 4%;
+  bottom: 11%;
+  margin: 0%;
   right: 1%;
 }
 
@@ -100,11 +101,12 @@ h4 {
 
 h5 {
   font-weight: 500;
-  font-size: 300%;
+  font-size: 250%;
   color: #000000; 
   text-shadow: 4px 4px 0px #ffffff;
   position: absolute;
-  bottom: -0.5%;
+  bottom: 11%;
+  margin: 0%;
   left: 1%;
 }
 
@@ -190,15 +192,6 @@ font-weight: 300;
   align-items: center;
 }
 
-.center {
-  top: 22%;
-  left: 32%;
-  width:40%;
-  height:60%;
-  z-index: -1;
-  position:absolute;
-}
-
 .item-a {
   width: 330px;
   height:400px;
@@ -278,7 +271,7 @@ position: absolute;
 .next-hover {
   display: block;
   text-decoration: none;
-  width: 270px;
+  width: 250px;
   height: 55px;
   top: 85%;
   overflow: hidden;
@@ -336,7 +329,7 @@ position: absolute;
 }
 
 .goback {
-  width: 270px;
+  width: 250px;
   height: 55px;
   position: absolute;
   z-index: -1;
@@ -349,7 +342,7 @@ position: absolute;
 .goback-hover {
   display: block;
   text-decoration: none;
-  width: 270px;
+  width: 250px;
   height: 55px;
   overflow: hidden;
   background-repeat: no-repeat;
