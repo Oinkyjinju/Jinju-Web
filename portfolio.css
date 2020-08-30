@@ -88,7 +88,7 @@ h3 {
   text-shadow: 4px 4px 0px #ffffff;
   position: absolute;
   bottom: 11%;
-  margin: 0%;
+  margin: 0% 0% .7%;
   right: 1%;
 }
 
@@ -271,8 +271,8 @@ position: absolute;
 .next-hover {
   display: block;
   text-decoration: none;
-  width: 250px;
-  height: 55px;
+  width: 13%;
+  height: 6%;
   top: 85%;
   overflow: hidden;
   background-repeat: no-repeat;
