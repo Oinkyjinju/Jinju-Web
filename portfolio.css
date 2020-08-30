@@ -64,11 +64,11 @@ a {
 }
 h1 {
   font-weight: 500;
-  font-size: 650%;
+  font-size: 550%;
+  position: absolute;
+  margin: 0% 0% 2% 0%;
   color: #000000; 
   text-shadow: 4px 4px 0px #ffffff;
-  margin-bottom: 10%;
-
 }
 
 h2 {
@@ -150,6 +150,14 @@ font-weight: 300;
   right: 31.8%;
 }
 
+.container{
+  width: 50%;
+  height: 50%;
+  position:absolute;
+  top: 20%;
+  right: 32%;
+ }
+ 
 .logo {
   top: 2%;
   left: 35%;
@@ -159,12 +167,12 @@ font-weight: 300;
 }
 
 .text-box{
-  width: 80%;
+  width: 100%;
   height: auto;
-  position:absolute;
-  top: 55%;
-  left: 47%;
-  z-index:1;
+  position: relative;
+  top: 25%;
+  margin: 3% 0% 0% 0%;
+  float: right;
 }
 
 .yearbox {
