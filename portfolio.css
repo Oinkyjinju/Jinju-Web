@@ -159,10 +159,12 @@ font-weight: 300;
 }
 
 .text-box{
-  top: 25%;
-  left: 35%;
   width: 80%;
   height: auto;
+  position:absolute;
+  top: 55%;
+  left: 47%;
+  z-index:1;
 }
 
 .yearbox {
