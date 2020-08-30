@@ -156,18 +156,18 @@ font-weight: 300;
   width: 43%;
   height: 43%;
   position:absolute;
-  top: 40%;
+  top: 10%;
   left: 55%;
  }
 
-.logo {
+/*.logo {
   top: 11%;
   left: 55%;
   position:absolute;
-  width: 23%;
+  width: 70%;
   height: auto%;
   z-index: 4;
-}
+}*/
 
 .text-box{
   width: 100%;
