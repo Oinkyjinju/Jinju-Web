@@ -123,14 +123,15 @@ h7, h8, h9 { /* You can just go on adding headings */
   display: block; /* Because this is block level element */
 }
 
+
 h7 {
   font-weight: 300;
-  font-size: 108%;
+  font-size: 105%;
   color: #bababa;
-  transform: rotate(-90deg);
   position: absolute;
-  bottom: 25%;
-  right:-32%;
+  bottom: -4vh;
+  right:0%;
+  width: 90%;
 }
 
 h8 {
@@ -168,9 +169,9 @@ font-weight: 300;
 }
 
 .center {
-  top: 17%;
-  left: 34%;
-  width:30%;
+  top: 22%;
+  left: 32%;
+  width:40%;
   height:60%;
   z-index: -1;
   position:absolute;
@@ -196,11 +197,13 @@ font-weight: 300;
 }
 
 .item-a3 {
-  width: 90%;
+  width: 80%;
   height:100%;
+  left:10%;
   position: absolute;
-  background: linear-gradient(90deg, #60c6ff, #b13d9b,#6d045c );
+  background: linear-gradient( #60c6ff, #b13d9b,#6d045c );
 }
+
 
 .item-a4 {
   width: 330px;
