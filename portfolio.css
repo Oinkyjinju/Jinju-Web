@@ -150,6 +150,14 @@ font-weight: 300;
   right: 31.8%;
 }
 
+.logo {
+  top: 2%;
+  left: 35%;
+  width: 40%;
+  height: 18%;
+  z-index: 4;
+}
+
 .text-box{
   width:240%;
   height: auto;
