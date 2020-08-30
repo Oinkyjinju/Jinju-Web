@@ -156,7 +156,7 @@ font-weight: 300;
   width: 43%;
   height: 43%;
   position:absolute;
-  top: 10%;
+  top: 13%;
   left: 55%;
  }
 
@@ -329,21 +329,21 @@ position: absolute;
 }
 
 .goback {
-  width: 250px;
-  height: 55px;
+  width: 13%;
+  height: 6%;
   position: absolute;
   z-index: -1;
   background-color: #98989814;
   top: 85%;
   left: 0%;
-  transition: .3s ease-in-out;
+  transition: .3s ease;
 }
 
 .goback-hover {
   display: block;
   text-decoration: none;
-  width: 250px;
-  height: 55px;
+  width: 13%;
+  height: 6%;
   overflow: hidden;
   background-repeat: no-repeat;
   background-size: contain;
