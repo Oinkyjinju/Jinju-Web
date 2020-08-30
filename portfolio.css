@@ -152,17 +152,18 @@ font-weight: 300;
 
 .container{
   width: 43%;
-  height: 40%;
+  height: 43%;
   position:absolute;
   top: 40%;
   left: 55%;
  }
 
 .logo {
-  top: 2%;
-  left: 35%;
-  width: 40%;
-  height: 18%;
+  top: 11%;
+  left: 55%;
+  position:absolute;
+  width: 23%;
+  height: auto%;
   z-index: 4;
 }
 
