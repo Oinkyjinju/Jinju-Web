@@ -328,6 +328,13 @@ position: absolute;
   position: absolute;
 }
 
+.item-d {
+  top: 17%;
+  left: 18%;
+  z-index: 1;
+  position: absolute;
+}
+
 .next-hover {
   display: block;
   text-decoration: none;
