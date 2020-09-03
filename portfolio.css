@@ -152,6 +152,66 @@ font-weight: 300;
   right: 31.8%;
 }
 
+.year1 {
+  font-family: Brushstroke, fantasy;
+  font-weight: 500;
+  font-size: 550%;
+  position: absolute;
+  margin: 0% 0% 2% 0%;
+  color: #E7D7BD; 
+  text-shadow: 5px 5px 0px #F5D93E,
+                10px 10px 0px #E5505E,
+                15px 15px 0px #720A2D;
+}
+
+.year2 {
+  font-family: Brushstroke, fantasy;
+  font-weight: 500;
+  font-size: 550%;
+  position: absolute;
+  margin: 0% 0% 2% 0%;
+  color: #ffda41; 
+  text-shadow: 5px 5px 0px #1eb5b0,
+                10px 10px 0px #002dff,
+                15px 15px 0px #011367;
+}
+
+.year3 {
+  font-family: Brushstroke, fantasy;
+  font-weight: 500;
+  font-size: 550%;
+  position: absolute;
+  margin: 0% 0% 2% 0%;
+  color: #eaf5fb; 
+  text-shadow: 5px 5px 0px #60c6ff,
+                10px 10px 0px #b13d9b,
+                15px 15px 0px #6d045c;
+}
+
+.year4 {
+  font-family: Brushstroke, fantasy;
+  font-weight: 500;
+  font-size: 550%;
+  position: absolute;
+  margin: 0% 0% 2% 0%;
+  color: #e8f7ff; 
+  text-shadow: 5px 5px 0px #28b0e4,
+                10px 10px 0px #1e6e99,
+                15px 15px 0px #143053;
+}
+
+.year5 {
+  font-family: Brushstroke, fantasy;
+  font-weight: 500;
+  font-size: 550%;
+  position: absolute;
+  margin: 0% 0% 2% 0%;
+  color: #fff1f1; 
+  text-shadow: 5px 5px 0px #e60f00,
+                10px 10px 0px #b40900,
+                15px 15px 0px #650904;
+}
+
 .container{
   width: 43%;
   height: 43%;
