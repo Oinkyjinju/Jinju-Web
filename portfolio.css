@@ -153,7 +153,7 @@ font-weight: 300;
 }
 
 .year1 {
-  font-family: Brushstroke, fantasy;
+  font-family: Impact, fantasy;
   font-weight: 500;
   font-size: 550%;
   position: absolute;
@@ -165,7 +165,7 @@ font-weight: 300;
 }
 
 .year2 {
-  font-family: Brushstroke, fantasy;
+  font-family: Impact, fantasy;
   font-weight: 500;
   font-size: 550%;
   position: absolute;
@@ -177,7 +177,7 @@ font-weight: 300;
 }
 
 .year3 {
-  font-family: Brushstroke, fantasy;
+  font-family: Impact, fantasy;
   font-weight: 500;
   font-size: 550%;
   position: absolute;
@@ -189,7 +189,7 @@ font-weight: 300;
 }
 
 .year4 {
-  font-family: Brushstroke, fantasy;
+  font-family: Impact, fantasy;
   font-weight: 500;
   font-size: 550%;
   position: absolute;
@@ -201,7 +201,7 @@ font-weight: 300;
 }
 
 .year5 {
-  font-family: Brushstroke, fantasy;
+  font-family: Impact, fantasy;
   font-weight: 500;
   font-size: 550%;
   position: absolute;
@@ -234,7 +234,7 @@ font-weight: 300;
   height: auto;
   position: relative;
   top: 25%;
-  margin: 3% 0% 0% 0%;
+  margin: 6% 0% 0% 0%;
   float: right;
 }
 
