@@ -110,7 +110,7 @@ h3 {
 h4 {
   font-family: Hepta Slab, sans-serif;
   font-weight: 100;
-  font-size: 12pt;
+  font-size: 100%;
   line-height: 1.2;
   margin: 0% 3% 3% 3%;
   color: #585858;
@@ -137,6 +137,21 @@ h6 {
   color: #585858;
   position: relative;
   text-align: left;
+}
+
+h7, h8, h9 { /* You can just go on adding headings */
+  display: block; /* Because this is block level element */
+}
+
+h7 {
+  font-family: Hepta Slab, sans-serif;
+  font-weight: 100;
+  font-size: 100%;
+  line-height: 1.2;
+  margin: 0% 3% 3% 3%;
+  color: #585858;
+  position: relative;
+  text-align: center;
 }
 
 .line {
@@ -177,7 +192,7 @@ h6 {
   }
 
   .logo {
-    width: 22%;
+    width: 15%;
     position: relative;
     margin: auto;
     align-items: center;
