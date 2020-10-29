@@ -1,6 +1,6 @@
 
 .topnav {
-  overflow: hidden;
+  overflow: visible;
   background-color: #fdfeff;
 }
 
@@ -13,6 +13,10 @@
   font-size: 15px;
 }
 
+.topnav2 a {
+  float: left;
+  padding: 14px 15px;
+}
 .topnav a:hover {
   background-color: none;
   color: #000000;
