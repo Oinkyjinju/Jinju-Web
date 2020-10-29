@@ -1,8 +1,8 @@
 .topnav {
   overflow: hidden;
-  background-color: #4166f5;
+  background-color: #506ace;
 }
-
+/*4166f5 - bright blue original color */
 .topnav a {
   float: right;
   color: #ffffff;
@@ -24,7 +24,7 @@
 body {
   font-family: Hepta Slab, sans-serif;
   font-weight: 500;
-  background: #4166f5;
+  background: #506ace;
   color: #ffffff;
 }
 * {
