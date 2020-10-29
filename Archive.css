@@ -12,6 +12,11 @@
   font-size: 15px;
 }
 
+.topnav2 a {
+  float: left;
+  padding: 14px 15px;
+}
+
 .topnav a:hover {
   background-color: none;
   color: #bababa;
