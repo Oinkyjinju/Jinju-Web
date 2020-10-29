@@ -12,11 +12,6 @@
   font-size: 15px;
 }
 
-.topnav2 a {
-  float: left;
-  padding: 14px 15px;
-}
-
 .topnav a:hover {
   background-color: none;
   color: #bababa;
@@ -24,6 +19,10 @@
 
 .topnav a.active {
   color: #f3c8f7;
+}
+
+.topnav2 {
+  float: left;
 }
 
 body {
