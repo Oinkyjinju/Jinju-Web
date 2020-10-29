@@ -1,7 +1,7 @@
 /*NAVIGATION */
 
 .topnav {
-  overflow: visible;
+  overflow: hidden;
   z-index: -1;
 }
 
@@ -12,11 +12,6 @@
   padding: 14px 15px;
   text-decoration: none;
   font-size: 15px;
-}
-
-.topnav2 a {
-  float: left;
-  padding: 14px 15px;
 }
 
 .topnav a:hover {
