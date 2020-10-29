@@ -1,5 +1,5 @@
 .topnav {
-  overflow: visible;
+  overflow: hidden;
   background-color: #506ace;
 }
 /*4166f5 - bright blue original color - 5d7fd2 */
@@ -19,10 +19,6 @@
 
 .topnav a.active {
   color: #f3c8f7;
-}
-
-.topnav2 {
-  float: left;
 }
 
 body {
