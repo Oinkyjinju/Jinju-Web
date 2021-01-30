@@ -8,14 +8,16 @@
   float: right;
   color: #bababa;
   text-align: center;
-  padding: 14px 15px;
+  padding: 2% 15px;
   text-decoration: none;
   font-size: 15px;
 }
 
 .topnav2 a {
-  float: left;
-  padding: 14px 15px;
+  position: absolute;
+  left: 50%;
+  margin: 0%, 0%, 3%, 0%;
+
 }
 
 .topnav a:hover {
@@ -30,6 +32,7 @@
 body {
   font-family: Hepta Slab, sans-serif;
   font-weight: 500;
+  min-height:112vh;
   background: #fdfeff;
 }
 
@@ -93,7 +96,7 @@ h3 {
   color: #000000; 
   text-shadow: 2px 2px 0px #ffffff;
   position: absolute;
-  bottom: 11%;
+  bottom: -7%;
   margin: 0% 0% .7%;
   right: 1%;
 }
@@ -112,7 +115,7 @@ h5 {
   color: #000000; 
   text-shadow: 2px 2px 0px #ffffff;
   position: absolute;
-  bottom: 11%;
+  bottom: -7%;
   margin: 0% 0% .7%;
   left: 1%;
 }
@@ -223,7 +226,7 @@ font-weight: 300;
   width: 43%;
   height: 43%;
   position:absolute;
-  top: 13%;
+  top: 20%;
   left: 55%;
  }
 
@@ -270,8 +273,8 @@ font-weight: 300;
 }
 .item-a2 {
   width: 32%;
-  height:80%;
-  top: 0%;
+  height:73%;
+  top: 14%;
   margin: 1% 0% 0% 8%;
   z-index: -5;
   position: absolute;
@@ -329,8 +332,8 @@ position: absolute;
 
 
 .item-c {
-  top: 3%;
-  left: 18%;
+  top: 15%;
+  left: 15%;
   z-index: 1;
   position: absolute;
 }
@@ -347,7 +350,7 @@ position: absolute;
   text-decoration: none;
   width: 13%;
   height: 6%;
-  top: 85%;
+  top: 103%;
   overflow: hidden;
   background-repeat: no-repeat;
   background-size: contain;
@@ -369,8 +372,9 @@ position: absolute;
 
 .nextcolor {
   width: 300px;
-  height: 300px;
+  height: 200px;
   position: absolute;
+  bottom: -20%;
   background: linear-gradient(90deg, #720A2D, #E5505E, #F5D93E, #E7D7BD );
 }
 
@@ -384,7 +388,7 @@ position: absolute;
 .nextcolor3 {
   width: 300px;
   height: 300px;
-  position: absolute;
+  position: auto;
   background: linear-gradient(90deg, #60c6ff, #b13d9b,#6d045c );
 }
 .nextcolor4 {
@@ -405,10 +409,11 @@ position: absolute;
 .goback {
   width: 13%;
   height: 6%;
+  padding: 0%, 0%, 50%, 0%;
   position: absolute;
   z-index: -1;
   background-color: #98989814;
-  top: 85%;
+  top: 103%;
   left: 0%;
 }
 
@@ -426,6 +431,7 @@ position: absolute;
 .goback-img {
   width: 100%;
   height: 100%;
+  bottom: -7%;
   opacity: 0;
   transform: translateX(-100%);
   transition: all 0.3s ease;
@@ -433,7 +439,7 @@ position: absolute;
 
 .goback-hover:hover .goback-img {
   border-radius: 100%;
-  bottom: 100%;
+  bottom: 0%;
   height: 0;
   transform: translateX(0);
   opacity: 1;
