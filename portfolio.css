@@ -1,3 +1,4 @@
+.pointer { cursor: pointer; }
 
 .topnav {
   overflow: visible;
@@ -345,6 +346,264 @@ position: absolute;
   position: absolute;
 }
 
+L-1 {
+  left: 0%;
+  padding: 1.4% 6%;
+  position: absolute;
+  bottom: -9%;
+  transition: all 1s;
+  overflow: hidden;
+  background-color: #98989814;
+
+}
+
+L-1:before {
+  content: '';
+  position: absolute;
+  left: 0%;
+  top: 0%;
+  height: 100%;
+  width: 100%;
+  background: linear-gradient(90deg, #e60f00, #b40900);
+  z-index: -1;
+  transform: translateX(200%);
+  transition: all 2s;
+}
+
+R-1 {
+  right: 0%;
+  padding: 1.4% 6%;
+  position: absolute;
+  bottom: -9%;
+  transition: all 1s;
+  overflow: hidden;
+  background-color: #98989814;
+
+}
+
+R-1:before {
+  content: '';
+  position: absolute;
+  left: 0%;
+  top: 0%;
+  height: 100%;
+  width: 100%;
+  background: #ffda41;
+  z-index: -1;
+  transform: translateX(-100%);
+  transition: all 1s;
+}
+
+L-2 {
+  left: 0%;
+  padding: 1.4% 6%;
+  position: absolute;
+  bottom: -9%;
+  transition: all 1s;
+  overflow: hidden;
+  background-color: #98989814;
+
+}
+
+L-2:before {
+  content: '';
+  position: absolute;
+  left: 0%;
+  top: 0%;
+  height: 100%;
+  width: 100%;
+  background: linear-gradient(90deg, #720A2D, #E5505E, #F5D93E, #E7D7BD );
+  z-index: -1;
+  transform: translateX(200%);
+  transition: all 2s;
+}
+
+R-2 {
+  right: 0%;
+  padding: 1.4% 6%;
+  position: absolute;
+  bottom: -9%;
+  transition: all 1s;
+  overflow: hidden;
+  background-color: #98989814;
+
+}
+
+R-2:before {
+  content: '';
+  position: absolute;
+  left: 0%;
+  top: 0%;
+  height: 100%;
+  width: 100%;
+  background: linear-gradient(90deg, #60c6ff, #b13d9b,#6d045c);
+  z-index: -1;
+  transform: translateX(-100%);
+  transition: all 1s;
+}
+
+L-3 {
+  left: 0%;
+  padding: 1.4% 6%;
+  position: absolute;
+    bottom: -9%;
+  transition: all 1s;
+  overflow: hidden;
+  background-color: #98989814;
+
+}
+
+L-3:before {
+  content: '';
+  position: absolute;
+  left: 0%;
+  top: 0%;
+  height: 100%;
+  width: 100%;
+  background: #ffda41;
+  z-index: -1;
+  transform: translateX(200%);
+  transition: all 2s;
+}
+
+R-3 {
+  right: 0%;
+  padding: 1.4% 6%;
+  position: absolute;
+  bottom: -9%;
+  transition: all 1s;
+  overflow: hidden;
+  background-color: #98989814;
+
+}
+
+R-3:before {
+  content: '';
+  position: absolute;
+  left: 0%;
+  top: 0%;
+  height: 100%;
+  width: 100%;
+  background: linear-gradient(90deg, #29b4e9,#122445);
+  z-index: -1;
+  transform: translateX(-100%);
+  transition: all 1s;
+}
+
+L-4 {
+  left: 0%;
+  padding: 1.4% 6%;
+  position: absolute;
+  bottom: -9%;
+  transition: all 1s;
+  overflow: hidden;
+  background-color: #98989814;
+
+}
+
+L-4:before {
+  content: '';
+  position: absolute;
+  left: 0%;
+  top: 0%;
+  height: 100%;
+  width: 100%;
+  background: linear-gradient(90deg, #60c6ff, #b13d9b,#6d045c);
+  z-index: -1;
+  transform: translateX(200%);
+  transition: all 2s;
+}
+
+R-4 {
+  left: 0%;
+  padding: 1.4% 6%;
+  position: absolute;
+    bottom: -9%;
+  transition: all 1s;
+  overflow: hidden;
+  background-color: #98989814;
+
+}
+
+R-4:before {
+  content: '';
+  position: absolute;
+  left: 0%;
+  top: 0%;
+  height: 100%;
+  width: 100%;
+  background: linear-gradient(90deg, #e60f00, #b40900 );
+  z-index: -1;
+  transform: translateX(200%);
+  transition: all 2s;
+}
+
+L-5 {
+  left: 0%;
+  padding: 1.4% 6%;
+  position: absolute;
+  bottom: -9%;
+  transition: all 1s;
+  overflow: hidden;
+  background-color: #98989814;
+
+}
+
+L-5:before {
+  content: '';
+  position: absolute;
+  left: 0%;
+  top: 0%;
+  height: 100%;
+  width: 100%;
+  background: linear-gradient(90deg, #29b4e9,#122445);
+  z-index: -1;
+  transform: translateX(200%);
+  transition: all 2s;
+}
+
+R-5 {
+  left: 0%;
+  padding: 1.4% 6%;
+  position: absolute;
+    bottom: -9%;
+  transition: all 1s;
+  overflow: hidden;
+  background-color: #98989814;
+
+}
+
+R-5:before {
+  content: '';
+  position: absolute;
+  left: 0%;
+  top: 0%;
+  height: 100%;
+  width: 100%;
+  background: linear-gradient(90deg, #720A2D, #E5505E, #F5D93E, #E7D7BD );
+  z-index: -1;
+  transform: translateX(200%);
+  transition: all 2s;
+}
+
+.swipeL:before{
+    transform: translateX(-100%);
+}
+.swipeL:hover:before{
+    transform: translateX(0%);
+}
+
+.swipeR:before{
+    transform: translateX(200%);
+}
+.swipeR:hover:before{
+    transform: translateX(0%);
+}
+
+
+
+/*  ---- OLD NEXT BUTTON
+
 .next-hover {
   display: block;
   text-decoration: none;
@@ -369,6 +628,10 @@ position: absolute;
   transform: translateX(0);
   opacity: 1;
 }
+
+*/
+
+/*  ---- color for old buttons
 
 .nextcolor {
   width: 300px;
@@ -402,9 +665,11 @@ position: absolute;
   width: 300px;
   height: 300px;
   position: absolute;
-  background: linear-gradient(90deg, #e60f00, #b40900 );
+  background: linear-gradient(90deg, #e60f00, #b40900);
+}*/
 
-}
+
+/*    -- OLD GO BACK BUTTON CSS only works at 100vh
 
 .goback {
   width: 13%;
@@ -445,7 +710,7 @@ position: absolute;
   opacity: 1;
 }
 
-
+*/
 
 
 
