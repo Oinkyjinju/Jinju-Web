@@ -367,7 +367,7 @@ L-1:before {
   background: linear-gradient(90deg, #e60f00, #b40900);
   z-index: -1;
   transform: translateX(200%);
-  transition: all 2s;
+  transition: all 1s;
 }
 
 R-1 {
@@ -375,7 +375,7 @@ R-1 {
   padding: 1.4% 6%;
   position: absolute;
   bottom: -9%;
-  transition: all 1s;
+  transition: all .8s;
   overflow: hidden;
   background-color: #98989814;
 
@@ -415,7 +415,7 @@ L-2:before {
   background: linear-gradient(90deg, #720A2D, #E5505E, #F5D93E, #E7D7BD );
   z-index: -1;
   transform: translateX(200%);
-  transition: all 2s;
+  transition: all 1s;
 }
 
 R-2 {
@@ -423,7 +423,7 @@ R-2 {
   padding: 1.4% 6%;
   position: absolute;
   bottom: -9%;
-  transition: all 1s;
+  transition: all .8s;
   overflow: hidden;
   background-color: #98989814;
 
@@ -463,7 +463,7 @@ L-3:before {
   background: #ffda41;
   z-index: -1;
   transform: translateX(200%);
-  transition: all 2s;
+  transition: all 1s;
 }
 
 R-3 {
@@ -471,7 +471,7 @@ R-3 {
   padding: 1.4% 6%;
   position: absolute;
   bottom: -9%;
-  transition: all 1s;
+  transition: all .8s;
   overflow: hidden;
   background-color: #98989814;
 
@@ -511,7 +511,7 @@ L-4:before {
   background: linear-gradient(90deg, #60c6ff, #b13d9b,#6d045c);
   z-index: -1;
   transform: translateX(200%);
-  transition: all 2s;
+  transition: all 1s;
 }
 
 R-4 {
@@ -519,7 +519,7 @@ R-4 {
   padding: 1.4% 6%;
   position: absolute;
     bottom: -9%;
-  transition: all 1s;
+  transition: all .8s;
   overflow: hidden;
   background-color: #98989814;
 
@@ -535,7 +535,7 @@ R-4:before {
   background: linear-gradient(90deg, #e60f00, #b40900 );
   z-index: -1;
   transform: translateX(200%);
-  transition: all 2s;
+  transition: all 1s;
 }
 
 L-5 {
@@ -559,7 +559,7 @@ L-5:before {
   background: linear-gradient(90deg, #29b4e9,#122445);
   z-index: -1;
   transform: translateX(200%);
-  transition: all 2s;
+  transition: all 1s;
 }
 
 R-5 {
@@ -567,7 +567,7 @@ R-5 {
   padding: 1.4% 6%;
   position: absolute;
     bottom: -9%;
-  transition: all 1s;
+  transition: all .8s;
   overflow: hidden;
   background-color: #98989814;
 
@@ -583,7 +583,7 @@ R-5:before {
   background: linear-gradient(90deg, #720A2D, #E5505E, #F5D93E, #E7D7BD );
   z-index: -1;
   transform: translateX(200%);
-  transition: all 2s;
+  transition: all 1s;
 }
 
 .swipeL:before{
