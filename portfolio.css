@@ -580,7 +580,7 @@ R-5:before {
   top: 0%;
   height: 100%;
   width: 100%;
-  background: linear-gradient(90deg, #720A2D, #E5505E, #F5D93E, #E7D7BD );
+  background: linear-gradient(-90deg, #720A2D, #E5505E, #F5D93E, #E7D7BD );
   z-index: -1;
   transform: translateX(200%);
   transition: all 1s;
