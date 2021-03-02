@@ -5,12 +5,13 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link href="https://fonts.googleapis.com/css?family=Work+Sans:100,200,300,400,700,800" rel="stylesheet">
-    <link rel="stylesheet" href="About.css">
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static',filename='About.css') }}"/>
+
   </head>
   
   <body> 
     <div class="topnav2">
-      <a href="portfolio.html">
+      <a href="HP.html">
         <img src="https://github.com/Oinkyjinju/Jinju-Web/blob/develop/images/logowhite.png?raw=true" style="width:15%; margin: .7% 0% 0% 3%;"></a>
     </div>
 
@@ -18,12 +19,12 @@
     <div class="topnav">
       <a class="active" href="about.html">About</a>
       <a href="Archive.html">Archive</a>
-      <a href="portfolio.html">Project</a>
+      <a href="HP.html">Project</a>
     </div>
 
 <div id="particles-js"></div>
 <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
-<script src="particles.js"></script>
+<script type="text/javascript" src="{{ url_for('static',filename='particles.js') }}"> </script>
 
 <!-- BG lights-->
 
