@@ -533,7 +533,7 @@ R-4:before {
   height: 100%;
   width: 100%;
   background: linear-gradient(90deg, #e60f00, #b40900 );
-  z-index: 0;
+  z-index: -1;
   transform: translateX(-100%);
   transition: all 1s;
 }
@@ -680,15 +680,6 @@ R-5:before {
   100% {opacity:1;
   }
  }  
-
- .fade-in-year {
-  animation-delay: 0s;
-  animation: fadeIn ease 3s;
-  -webkit-animation: fadeIn ease 3s;
-  -moz-animation: fadeIn ease 3s;
-  -o-animation: fadeIn ease 3s;
-  -ms-animation: fadeIn ease 3s;
-  }
 
  .fade-in-text {
   animation-delay: 10s;
