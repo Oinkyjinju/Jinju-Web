@@ -169,10 +169,10 @@ font-weight: 300;
   font-size: 550%;
   position: absolute;
   margin: 0% 0% 2% 0%;
-  color: #fff7ea; 
-  text-shadow: 5px 5px 0px #F5D93E,
-                10px 10px 0px #E5505E,
-                15px 15px 0px #720A2D;
+  color: #F5D93E; 
+  text-shadow: 5px 5px 0px #E5505E,
+                10px 10px 0px #720A2D,
+                15px 15px 0px #3e0618;
 }
 
 .year2 {
