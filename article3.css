@@ -32,6 +32,13 @@
   font-size: 15px;
 }
 
+.topnav2 a {
+  position: absolute;
+  left: 50%;
+  margin: 0%, 0%, 3%, 0%;
+
+}
+
 .topnav a:hover {
   background-color: none;
   color: #000000;
